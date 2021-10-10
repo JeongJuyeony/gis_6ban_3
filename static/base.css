@@ -1,0 +1,18 @@
+
+.ArtMuseum_logo{
+    font-family: 'Sacramento', cursive;
+}
+
+.ArtMuseum_footer_botton{
+    font-size: .6rem;
+}
+
+.ArtMuseum_footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.ArtMuseum_header {
+    text-align: center;
+    margin: 2rem 0;
+}

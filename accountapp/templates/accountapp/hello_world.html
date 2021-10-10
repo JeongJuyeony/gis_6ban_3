@@ -3,9 +3,20 @@
 {% block content %}
 
     <div style="height: 20rem; background-color: darkgrey; border-radius: 1rem; margin: 2rem;">
+
         <h1>
             testing
         </h1>
+
+        <form action="/accounts/hello_world/" method="post">
+            {% csrf_token %}
+            <input type="submit" class="btn btn-primary" value="POST">
+        </form>
+
+        <h1>
+            {{ text }}
+        </h1>
+
     </div>
 
 {% endblock %}
